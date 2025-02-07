@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() 
+{
+   int inti_balance,deposit,balance_A,withdraw,balance_B,fin_balance;
+   printf("inti_balance=");
+   scanf("%d",&inti_balance);
+   printf("deposit=");
+   scanf("%d",&deposit);
+   balance_A=inti_balance+deposit;
+   printf("balance_A=%d\n",balance_A);
+   printf("withdraw=");
+   scanf("%d",&withdraw);
+   balance_B=balance_A-withdraw;
+   printf("balance_B=%d\n",balance_B);
+   fin_balance=balance_B;
+   printf("fin_balance=%d\n",balance_B);
+    return 0;
+}
+OUTPUT;
+inti_balance=5000
+deposit=2000
+balance_A=7000
+withdraw=1500
+balance_B=5500
+fin_balance=5500
