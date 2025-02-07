@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main()
+{
+   int a,b,c,sum,diff,product,quotient;
+   printf("value of a=");
+   scanf("%d",&a);
+   printf("value of b=");
+   scanf("%d",&b);
+   sum=a+b;
+   diff=a-b;
+   product=a*b;
+   quotient=a/b;
+   printf("value of sum=%d\n",sum);
+   printf("value of diff=%d\n",diff);
+   printf("value of product=%d\n",product);
+   printf("value of quotient=%d\n",quotient);
+   return 0;
+}
+output:
+value of a=13
+value of b=15
+value of sum=28
+value of diff=-2
+value of product=195
+value of quotient=0
+=== Code Execution Successful ===
+#include <stdio.h>
+int main()
+{
+   int celcius,farenheit;
+   printf("value of celcius=");
+   scanf("%d",&celcius);
+   farenheit=(celcius*1.8)+32;
+   printf("value of farenheit=%d\n",farenheit);
+   return 0;
+}
+output:
+value of celcius=27
+value of farenheit=80
